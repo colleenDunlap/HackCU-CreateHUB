@@ -1,4 +1,11 @@
-# HackCU-CreateHUB
-Creator Connection Platform created at HackCU V
-#
-The original commit of this repo is the demoed project.  For full commit/development history, visit https://github.com/vitr2218/HackCUProject
+
+# CreateHUB
+
+Project for HackCU 2019
+
+## Instructions
+1. Clone repo
+2. Run these commands:
+- `npm install`
+
+

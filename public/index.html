@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  
+
+  <head>
+
+  </head>
+  <div id="main">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      
+      <a href="signin">Sign In</a>
+      <a class="typeform-share button" href="https://developerplatform.typeform.com/to/ujbFTK" 
+        data-mode="popup" style="left:0px;display:inline-block;text-decoration:none;background-color:#267DDD;color:white;
+        cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:15px;line-height:40px;
+        text-align:center;margin-left:auto; margin-right:0;height:40px;padding:0px 23px;border-radius:25px;max-width:100%;
+        white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;
+        -moz-osx-font-smoothing:grayscale;" target="_blank">Sign Up</a><script> (function() { var qs,js,q,s,d=document,
+        gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+    </div>
+  
+  <div>
+    
+
+  </div>
+  <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Profile</a>
+      <a href="#">Projects</a>
+      <a href="#">Connections</a>
+      <a href="#">Settings</a>
+    </div>
+  <body>
+  <div id="particles-js"><div class="AboutUs">
+     </div>
+    
+  </div>
+  <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+      }
+      </script>
+  <script type="text/javascript" src="particles.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+	  <!-- ... other HTML ... -->
+
+    
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
+  </body>
+
+</html>
